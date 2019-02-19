@@ -1,6 +1,15 @@
 # Created by https://www.gitignore.io/api/xcode,macos,swift,android,windows,jetbrains,visualstudio,androidstudio,xamarinstudio,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=xcode,macos,swift,android,windows,jetbrains,visualstudio,androidstudio,xamarinstudio,visualstudiocode
 
+### Original ###
+
+*.bak
+ApiKey.cs
+ApiKeys.cs
+Secret.cs
+Secrets.cs
+Resource.Designer.cs
+
 ### Android ###
 # Built application files
 *.apk
