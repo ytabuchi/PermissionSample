@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermissionSample.Core", "PermissionSample.Core\PermissionSample.Core.csproj", "{1A175BD1-8013-47E9-A84A-43710EB411C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PermissionSample.Core", "PermissionSample.Core\PermissionSample.Core.csproj", "{1A175BD1-8013-47E9-A84A-43710EB411C8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFPermissionSample.Android", "XFPermissionSample\XFPermissionSample.Android\XFPermissionSample.Android.csproj", "{BF1E1FF5-3B84-4581-A75C-93F090258154}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFPermissionSample.iOS", "XFPermissionSample\XFPermissionSample.iOS\XFPermissionSample.iOS.csproj", "{0F13315C-5EBD-4C56-A72D-2B36438E84FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFPermissionSample", "XFPermissionSample\XFPermissionSample\XFPermissionSample.csproj", "{ADC84DE8-DF82-4E9E-AD72-D8D903966D14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XFPermissionSample", "XFPermissionSample\XFPermissionSample\XFPermissionSample.csproj", "{ADC84DE8-DF82-4E9E-AD72-D8D903966D14}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermissionSample.Android", "PermissionSample.Android\PermissionSample.Android.csproj", "{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XamarinForms", "XamarinForms", "{27F04231-C755-4B0D-B20D-1920BC6D9138}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -172,6 +174,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF1E1FF5-3B84-4581-A75C-93F090258154} = {27F04231-C755-4B0D-B20D-1920BC6D9138}
+		{0F13315C-5EBD-4C56-A72D-2B36438E84FE} = {27F04231-C755-4B0D-B20D-1920BC6D9138}
+		{ADC84DE8-DF82-4E9E-AD72-D8D903966D14} = {27F04231-C755-4B0D-B20D-1920BC6D9138}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A302DC37-F6AF-444B-B222-91997502A38C}
