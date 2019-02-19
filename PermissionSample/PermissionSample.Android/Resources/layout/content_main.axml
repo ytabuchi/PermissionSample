@@ -8,9 +8,40 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
-        android:layout_width="wrap_content"
+		android:id="@+id/Header"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+		android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+		android:layout_alignParentTop="true"
         android:text="Hello World!" />
+
+	<TextView
+		android:id="@+id/ResultText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/Header"
+		android:text="Result:"/>
+
+	<Button
+		android:id="@+id/PhoneButton"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/ResultText"
+		android:text="Phone and Contact" />
+
+	<Button
+		android:id="@+id/LocationButton"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/PhoneButton"
+		android:text="Location" />
+
+	<Button
+		android:id="@+id/CameraButton"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/LocationButton"
+		android:text="Camera and Library" />
 
 </RelativeLayout>
