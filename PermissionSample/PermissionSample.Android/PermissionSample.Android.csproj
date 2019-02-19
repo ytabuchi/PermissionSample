@@ -102,6 +102,12 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PermissionSample.Core\PermissionSample.Core.csproj">
+      <Project>{1a175bd1-8013-47e9-a84a-43710eb411c8}</Project>
+      <Name>PermissionSample.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.
